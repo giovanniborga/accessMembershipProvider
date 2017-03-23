@@ -354,11 +354,4 @@ Public Class AccessMembershipProvider
         Return False
     End Function
 
-    Public Function getMembershipRoles() As String()
-        Dim a As String()
-        ReDim a(2)
-        a(0) = ""
-        Return a
-    End Function
-
 End Class
